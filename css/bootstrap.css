@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(24,24,24);
+}
+
+header {
+    background-color: rgb(32,32,32);
+    box-shadow: 0px 0px 20px 0px rgb(15 15 15);
+    width: 100%;
+    padding: 10px;
+}
+
+#header-right {
+    float: right;
+}
+
+#titletext {
+    color: rgb(255,255,255);
+    font-size: 32px;
+    font-weight: 550;
+}
+
+a {
+    color: var(--white);
+}
+
+b {
+    color: var(--white);
+}
+
+#video1 {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: calc(100vh - 83px);
+    pointer-events: none;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+
+.under-video {
+
+}
+
+.flat
+{
+    font-weight: 250;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    color: white;
+    border-radius: 0px;
+}
+
+#headerdiscord {
+    float: right;
+    position: absolute;
+    top: 20px;
+    left: 14.5in;
+    font-weight: 367;
+}
+
+#buttonbuy {
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-weight: 367;
+}
