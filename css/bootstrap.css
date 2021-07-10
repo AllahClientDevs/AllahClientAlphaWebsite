@@ -11,20 +11,32 @@ header {
 
 #header-right {
     float: right;
+    top: 50%;
+    position: relative;
+    transform: translate(0%, 40%);
 }
 
 #titletext {
-    color: rgb(255,255,255);
+    color: var(--white);
+    text-decoration: none !important;
     font-size: 32px;
     font-weight: 550;
 }
 
 a {
     color: var(--white);
+    text-decoration: none !important;
 }
 
 b {
     color: var(--white);
+    text-decoration: none !important;
+}
+
+c {
+    font-weight: 400 !important;
+    color: var(--white);
+    text-decoration: none !important;
 }
 
 #video1 {
@@ -39,21 +51,21 @@ b {
     margin-bottom: 24px;
 }
 
-.under-video {
-
+#frameby {
+    float: right;
 }
 
-.flat
-{
-    font-weight: 250;
+.flat {
     border: 0;
     background: none;
+    text-decoration: none !important;
     box-shadow: none;
     color: white;
     border-radius: 0px;
 }
 
-#headerdiscord {
+
+/*#headerdiscord {
     float: right;
     position: absolute;
     top: 20px;
@@ -67,4 +79,4 @@ b {
     top: 20px;
     right: 10px;
     font-weight: 367;
-}
+}/*
