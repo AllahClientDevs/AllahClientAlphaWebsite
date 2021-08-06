@@ -1,0 +1,221 @@
+.purple {
+    background: #DE5AFF;
+}
+.green {
+    background: #50FF6C;
+}
+.red {
+    background: #FF4040;
+}
+
+
+/* custom color*/
+
+
+
+
+
+
+body {
+    background-color: rgb(24,24,24);
+}
+
+#background-video {
+    height: 100%;
+}
+#background-video-bitch {
+    width: 100%;
+}
+
+
+
+#information, #whybuy {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.information-objects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.information-object {
+    width: 30%;
+    height: 220px;
+    margin: 10px;
+    filter: drop-shadow(0px 0px 8px #000);
+    border-radius: 12px;
+    background-color: rgb(24,24,24);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-object-title {
+    margin-bottom: 30px;
+}
+
+#header {
+	background-color: rgb(32 32 32 / 60%);
+    box-shadow: 0px 0px 20px 0px rgb(15 15 15 / 59%);
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+	z-index: 10;
+}
+
+#header-right {
+    float: right;
+    top: 50%;
+    position: relative;
+    transform: translate(0%, 40%);
+}
+
+#titletext {
+    color: var(--white);
+    text-decoration: none !important;
+    font-size: 32px;
+    font-weight: 550;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none !important;
+}
+
+b {
+    color: var(--white);
+    text-decoration: none !important;
+}
+
+c {
+    font-weight: 400 !important;
+    color: var(--white);
+    text-decoration: none !important;
+}
+.iconCard {
+    align-self: center;
+    padding: 10px 12px;
+    margin: 0px 26px;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50px;
+}
+.jc {
+    justify-content: space-around;
+}
+.flex {
+    display: flex;
+}
+.cardInfo {
+    display: flex;
+    color: white;
+    width: 29vw;
+    border-radius: 10px;
+    background: #4b4b4b24;
+    padding: 5px 0;
+    height: 110px;
+}
+.rightText {
+    width: 70%;
+}
+.topText {
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #E4E4E4;
+    text-align-last: center;
+    width: 100%;
+}
+.downText {
+    color: #878787;
+}
+#video1 {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: calc(100vh - 83px);
+    pointer-events: none;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+
+#frameby {
+    float: right;
+}
+
+.flat {
+    border: 0;
+    background: none;
+    text-decoration: none !important;
+    box-shadow: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: 0.1s all ease;
+}
+.flat:hover {
+    background-color: rgb(32 32 32 / 14%);
+    color: #e6e6e6;
+}
+.overText {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 300px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 26px;
+}
+
+.whyus {
+    color: var(--white);
+    text-decoration: none !important;
+    font-size: 30px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.fontsize {
+    font-size: 45px;
+}
+.cardsInfo {
+    margin: 90px 0
+}
+@media only screen and (max-width: 1000px) {
+  .flex {
+    flex-flow: column;
+    align-items: center;
+  }
+  .cardInfo {
+    width: 80vw;
+    height: 150px;
+    margin-bottom: 45px;
+  }
+  #header {
+    font-size: 12px!important;
+  }
+  #titletext {
+    font-size: 23px;
+  }
+}
