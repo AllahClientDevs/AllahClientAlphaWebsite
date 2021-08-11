@@ -33,7 +33,7 @@ themebutton.addEventListener("click", ()=>{
     document.cookie = "theme=dark; expires=Tue, 1 Dec 2030 07:15:00 UTC; path=/";
     console.info("Allah - Pink Mode was toggled OFF.");
     togglemode.classList.toggle("pink-mode");
-    document.getElementById("header").style.backgroundColor = "gray";
+    document.getElementById("header").style.backgroundColor = "rgb(32 32 32 / 60%)";
   }
 })
 
