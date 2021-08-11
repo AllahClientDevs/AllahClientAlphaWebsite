@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta property="og:type" content="website">
     <meta property="og:title" content="Allah Client"/>
     <meta property="og:description" content="Allah Client | The Best Multiserver Utility Client"/>
@@ -16,27 +15,30 @@
     <link rel="icon" 
       type="img/ico.png" 
       href="https://github.com/Allah-Client/AllahClientAlphaWebsite/blob/master/img/ico.png?raw=true">
-
 </head>
-<body>
+
+<script src="/js/cookie.js"></script>
+
+<body onload="checkCookie()">
     <div id="header">
         <a href="index.html" id="titletext">Allah Client</a>
         <div id="header-right">
             <a class="flat" href="https://discord.gg/XQZM4SSa6T">Discord</a>
-           <a class="flat" href="https://sellix.io/product/6111379b81757" >Buy</a>
+           <a class="flat" href="https://sellix.io/product/6111379b81757">Buy</a>
+           <a id="themetoggle" class="fa fa-fill-drip"></a>
         </div>
     </div>
     <div id="background-video">
         <div class="overText">
-            <div class="whyus fontsize">Allah Client</div>
-            <div>Made by ducky, and quantum</div>
+            <div style="color: black;" class="whyus fontsize">Allah Client</div>
+            <div style="color: black;">Made by ducky, and quantum</div>
         </div>
         <video id="background-video-bitch" autoplay muted>
             <source src="img/background.mp4" type="video/mp4">
         </video>
     </div>
     <div class="whyus">
-        Why Allah Client ?
+        Why Allah Client?
     </div>
     <div class="cardsInfo">
         <div class="flex jc">
@@ -77,6 +79,6 @@
             </div>
         </div>
     </div>
-   
+    <script src="/js/theme.js"></script>
 </body>
 </html>

@@ -16,10 +16,16 @@ body {
 #background-video {
     height: 100%;
 }
+
 #background-video-bitch {
     width: 100%;
 }
 
+
+.pink-mode {
+    background-color: pink;
+    color: black;
+}
 
 #information, #whybuy {
     display: flex;
@@ -60,7 +66,7 @@ body {
 }
 
 #header {
-	background-color: rgb(32 32 32 / 60%);
+    background-color: rgb(32 32 32 / 60%);
     box-shadow: 0px 0px 20px 0px rgb(15 15 15 / 59%);
     width: 100%;
     padding: 10px 20px;
@@ -120,8 +126,9 @@ c {
     width: 29vw;
     border-radius: 10px;
     background: #4b4b4b24;
-    padding: 5px 0;
+    padding: 15px 0;
     height: 150px;
+    bottom: 5px;
 }
 .rightText {
     width: 70%;
@@ -130,11 +137,11 @@ c {
     letter-spacing: 0.5px;
     font-weight: 500;
     color: #E4E4E4;
-    text-align-last: center;
+    justify-content: center;
     width: 100%;
 }
 .downText {
-    color: #878787;
+    padding-top: 5px;
 }
 #video1 {
     position: fixed;
@@ -207,6 +214,7 @@ c {
     font-size: 25px;
 }
   .cardInfo {
+    padding: 5px 0;
     width: 80vw;
     height: 150px;
     margin-bottom: 45px;
@@ -217,4 +225,9 @@ c {
   #titletext {
     font-size: 23px;
   }
+}
+
+.fa-fill-drip:hover {
+    cursor: pointer;
+    color: rgb(226, 226, 226);
 }
